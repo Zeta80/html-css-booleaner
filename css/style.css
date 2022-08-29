@@ -5,12 +5,12 @@
 }
 
 
+
 header {
     background-image: url(../img/img/pattern.png);
     background-color: #4ea0ff;
     background-size: 400px;
-    height: 100px;
-    
+    height: 100px;   
 }
 
 
@@ -21,9 +21,51 @@ header {
     background-repeat: no-repeat;
     background-position: bottom;
     margin-bottom: 30px;
+}
+
+#logo-header,.conteiner {
     margin-left: 10px;
 }
+
+.informazioni-post {
+   color: grey;
+}
+
+.data {
+    font-size: x-small;
+}
+
+#link-booleaner {
+    color: #52c5ef;
+}
+
+.immagini-tim {
+    font-size: smaller;
+}
+
+.descrizione p {
+    margin-top: 20px;
+}
     
+.lista-lorem {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+table.lorem {
+    table-layout: fixed;
+    width: 100%; 
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: left;
+    margin-right: 20px; 
+}
 
+.tab-blu {
+    background-color: #20a9e5;
+}
 
+.tab-lightblu {
+    background-color: #b1e5f2;
+}
