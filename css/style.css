@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 
-
-
 header {
     background-image: url(../img/img/pattern.png);
     background-color: #4ea0ff;
     background-size: 400px;
-    height: 100px;   
+    height: 100px;      
 }
 
+#sfondo-rip {
+    margin: 0;
+}
 
 #logo-header {
     width: 200px;
@@ -27,9 +28,12 @@ header {
     margin-left: 10px;
 }
 
+/* scritto da, potrebbero interessarti */
 .informazioni-post {
    color: grey;
+   margin-bottom: 10px;
 }
+/* /scritto da, potrebbero interessarti */
 
 .data {
     font-size: x-small;
@@ -68,4 +72,39 @@ table.lorem {
 
 .tab-lightblu {
     background-color: #b1e5f2;
+}
+
+footer {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+/* immagini relative a post consigliati */
+.post-primario, .post-secondario {
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    font-weight: bold;   
+}
+
+.post-primario {
+    background-image: url(../img/img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.post-secondario {
+    background-image: url(../img/img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.link span {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* /immagini relative a post consigliati */
+
+.evidenziato {
+    background-color: yellow;
 }
